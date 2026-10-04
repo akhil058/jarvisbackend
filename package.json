@@ -1,0 +1,12 @@
+{
+  "name": "jarvisai-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tiny proxy that keeps the AI provider key off the phone.",
+  "main": "server.js",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "test": "node --test"
+  }
+}
